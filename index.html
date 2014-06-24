@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>8</title>
+  <meta name="description" content="The 8 Game - From The Stanley Parable Demo">
+  <meta name="author" content="Joe Glombek">
+
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    
+</head>
+
+<body>
+    
+    <button>8</button>
+    <audio  preload="auto">
+   <source src="8.mp3" type='audio/mpeg; codecs="mp3"'>
+   <source src="8.oga" type='audio/ogg; codecs="vorbis"'>
+</audio>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $("button").on("mousedown", function() {
+            $("audio")[0].play();
+        });
+    </script>
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>
